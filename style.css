@@ -1,0 +1,446 @@
+/*
+Theme Name: Blue & Yellow Sam Heughan Spain ES
+Designed & coded by: Maria
+Author URI: http://sam-heughan.es
+*/
+
+/********** Header background **********/
+
+header { 	
+	background-color: #34494f;
+	background-image: url(/wp/wp-content/themes/sblueyellow/imagenes/bg.png);
+	background-repeat: no-repeat;
+	background-position: 50% 0px;
+}
+
+/********** Main background **********/
+
+body { 	
+	background-color: #34494f;
+	background-image: url(/wp/wp-content/themes/sblueyellow/imagenes/bg.png);
+	background-repeat: no-repeat;
+	background-position: 50% 0px;
+	font-family: Arial,tahoma,Verdana,Helvetica;
+        margin: 0px;
+}
+
+/********** Footer background **********/
+footer {
+	position: relative;
+	margin-top: -50px;
+	height: 30px;
+	padding:5px 0px;
+	clear: both;
+	background-color: #080808;
+	text-align: center;
+	color: #fff;
+}
+
+/********** Background elements **********/
+
+#container   {
+	text-align: justify;
+	width: 997px;
+	margin: 0px auto;
+	position: relative;
+	background-color: transparent;
+}
+
+/********** Links **********/
+
+a:link, a:active, a:visited {
+	color: #17386d;
+	text-decoration : none; 
+        font-weight: bold;
+        font-style: normal;
+	text-shadow: 0px 0px 0px #808080;
+}
+
+a:hover {
+	color: #717e8f;
+	text-decoration : None;
+}
+
+/********** Text Effects **********/
+
+	b{color: #2d2d2d;}
+	i{font-size:12px; font-family: arial;}
+	u{border-bottom:1px solid #2d2d2d; text-decoration:none; color: #2d2d2d;}
+	
+
+/********** List **********/
+
+li { 
+	list-style-image: url(/wp/wp-content/themes/sblueyellow/imagenes/guionlista.png);
+	margin-left: -10px; 
+} 
+
+/********** Extra **********/
+
+textarea, button, select {
+	background-color: #778290;
+	border-top: 0px solid #ffffff;
+	border-left: 0px solid #ffffff;
+	border-right: 2px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	color: #ffffff;
+	padding:5px;		
+	font-weight: normal; 
+	text-transform: none;
+	letter-spacing:0px;
+	line-height: 12px;
+	font-size: 11px;
+	text-decoration: none;
+	font-family: Arial; 
+	text-align: justify;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+	}
+
+option {
+	background-color: #778290;
+	border-top: 0px solid #ffffff;
+	border-left: 0px solid #ffffff;
+	border-right: 2px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	color: #ffffff;
+	padding:5px;		
+	font-weight: normal; 
+	text-transform: none;
+	line-height : 11px;
+	font-size:10px;
+	text-decoration : none;
+	font-family: Arial; 
+	text-align :justify;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+	}
+
+input {
+	background-color: #778290;
+	border-top: 0px solid #ffffff;
+	border-left: 0px solid #ffffff;
+	border-right: 2px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	color: #ffffff;
+	padding:3px; 
+	font-weight: normal; 
+	text-transform: none;
+	letter-spacing:0px;
+	line-height : 12px;
+	font-size:11px;
+	text-decoration : none;
+	font-family: Arial; 
+	text-align :justify;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+/********** Blockquote **********/
+
+blockquote {
+	background-color: #778290;
+	border-top: 0px solid #ffffff;
+	border-left: 5px solid #ffffff;
+	border-right: 2px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	text-shadow: 0px 0px 0px #994249;
+	text-align: justify;
+	padding:5px;
+	color: #ffffff;
+	font-family: Tahoma;
+	margin: 10px;
+	line-height: 100%;
+}
+
+/********** Image Effects **********/
+
+.pic {
+	background-color:#717e8f;
+	border-top: 0px solid #ffffff;
+	border-left: 0px solid #ffffff;
+	border-right: 1px solid #141414;
+	border-bottom: 1px solid #141414;
+	padding:4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	opacity:.60;
+}
+
+.pic:hover {
+	background-color:#a3afba;
+	border-top: 0px solid #ffffff;
+	border-left: 0px solid #ffffff;
+	border-right: 1px solid #141414;
+	border-bottom: 1px solid #141414;
+	padding:4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	opacity:.90;
+}
+
+/********** Content **********/
+
+#content {
+	float: right;
+	width: 635px;
+	margin-bottom: 0px;
+	margin-right: 5px;
+	background-color: #eeeded;
+}
+
+#contentbottom {
+	position: relative;
+	width: 635px;
+	height: 0px;
+	background-image: url();
+	background-color: #eeeded;
+}
+
+/* Content Text */
+
+.content{
+	color: #363636;         
+	font-size:11pt;
+	font-family: Arial;
+	line-height:20px;
+	background-color: #eeeded;
+	background-image: url();
+	letter-spacing:0;
+	text-align: justify;
+	text-shadow: 0px 0px 0px #1d1d1d;
+	padding: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-weight:normal;
+}
+
+/* Content Links */
+
+.content a:link, .content a:active, .content a:visited {
+	color: #24536f;
+	text-decoration : none; 
+	text-shadow: 0px 0px 0px #1d1d1d;
+	font-style: normal;
+}
+
+.content a:hover {
+	color: #24536f;
+	text-decoration : None;
+}
+
+/* Content Text Effects */
+
+.content b{color: #363636;}
+.content i{font-size:12px; font-family: arial;}
+.content u{border-bottom:1px solid #363636; text-decoration:none; color: #363636;}
+
+/* Title */
+
+#title {
+	position: relative;
+	width: 635px;
+	height:53px;
+	background-image: url(/wp/wp-content/themes/sblueyellow/imagenes/nup.png);
+	background-color: transparent;
+        text-transform:uppercase
+}
+
+.title {
+	color: #eeeded;         
+	font-size:14pt;
+	font-family: Arial;
+    font-weight: normal;
+    font-style: normal; 
+	text-transform:uppercase;
+	line-height: 100%;
+	background-color: transparent;
+	text-align: left;
+	text-shadow: 0px 0px 0px #000000;
+	padding-right:25px;
+	padding-left:30px;
+	padding-top:9px;
+	padding-bottom:5px;
+}
+
+.title a:link, .title a:active, .title a:visited{
+	color: #eeeded;         
+	font-size:12pt;
+	font-family: Arial;
+    font-weight: bold;
+    font-style: normal; 
+	text-transform:uppercase;
+	line-height: 16px;
+	background-color: transparent;
+	text-align: left;
+	text-shadow: 0px 0px 0px #000000;
+}
+
+.title a:hover {
+	color: #eeeded;
+	text-decoration: none;
+	text-transform:uppercase
+}
+
+/* Posting Info */
+
+.posted {
+	background-color: transparent;
+	text-shadow: 0px 0px 0px #000000;
+	text-align: right;
+	padding:0px;
+	color: #03080a;
+	font-family: Arial;
+    font-size: 8pt;
+	margin-left: 40px;
+    margin-right: 5px;
+	margin-top: -10px;
+    padding-bottom: 10px;
+}
+
+.posted a:link, .posted a:active, .posted a:visited {
+	color: #c29544;
+	text-decoration : none; 
+	text-shadow: 0px 0px 0px #000000;
+        font-style: normal;
+}
+
+.posted a:hover {
+	color: #c29544;
+	text-decoration : None;
+}
+
+/* Comments */
+
+.comments {
+	line-height: 100%;
+    margin-left: 600px;
+    margin-top: -20px;
+	position: absolute; 
+	height: auto !important; 
+	font-family: Arial;
+	font-size: 9pt;
+    font-weight: none;
+    font-style: italic;
+	text-shadow: 0px 0px 0px #3394b3;
+	text-align: center;
+	letter-spacing:-1px;
+	color: #2d2d2d;
+	clear:both;
+	background-color: transparent;
+}
+
+.comments a:link, .comments a:active, .comments a:visited{
+	color: #17386d;
+	text-decoration : none; 
+	font-size: 9pt;
+	text-shadow: 0px 0px 0px #3394b3;
+	text-align: center;
+	letter-spacing:-1px;
+    font-weight: none;
+    font-style: italic;
+	line-height: 100%;
+}
+
+.comments a:hover {
+	color: #717e8f;
+	text-decoration : None;
+}
+
+/********** Sidebar **********/
+
+#sidebar {
+	float: left;
+	width: 365px;
+   	margin-bottom: 10px;
+	margin-left: -8px;
+	background-image: url(/wp/wp-content/themes/sblueyellow/imagenes/smid.png);
+	background-color: transparent;
+}
+
+#sidebarbottom {
+	position: relative;
+	width: 330px;
+	height:0px;
+	background-color: transparent;
+}
+
+/* Sidebar Header */
+.sidetop {
+	color: #040709;         
+	font-size:12pt;
+	font-family: Arial;
+		text-transform:uppercase;
+	text-align: left;
+	text-shadow: 0px 0px 0px #24809d;
+	letter-spacing:1px;
+	padding-top:10px;
+	padding-left:20px;
+	font-style: normal;
+	font-weight: bold;
+	width: 363px;
+	height:25px;
+	background-color: transparent;
+	background-image: url(/wp/wp-content/themes/sblueyellow/imagenes/sup.png);
+}
+
+
+/* Sidebar Text */
+.side{
+	color: #a9aaaa;         
+	font-size:9pt;
+	font-family: Arial;
+	line-height:13px;
+	background-color: transparent;
+	background-image: url();
+	letter-spacing:0;
+	text-align: justify;
+	text-shadow: 0px 0px 0px #184655;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top: 4px;
+	padding-bottom: 0px;
+	font-weight:normal;
+}
+
+/* Sidebar Links */
+.side a:link, .side a:active, .side a:visited {
+	color: #b38d47;
+	text-decoration: none; 
+    font-weight: none;
+    font-style: none;
+	text-shadow: 0px 0px 0px #184655;
+}
+
+.side a:hover {
+	color: #b38d47;
+	text-decoration : None;
+}
+
+/* Sidebar Text Effects */
+.side b{color: #a9aaaa;}
+.side i{font-size:9pt; font-family: arial;}
+.side u{border-bottom:1px solid #a9aaaa; text-decoration:none; color: #a9aaaa;}
+
+/********** Footer **********/
+.page-numbers {
+      display: none;
+}
+
+.define {
+            width:960px;
+            margin:0 auto;
+			font-size:9pt;
+			color: #a9aaaa;
+			font-family: Arial;
+}
+
+/********** Page navi **********/
+
+.wp-pagenavi a, .wp-pagenavi a:link { padding: 6px 8px !important; margin: 2px !important; text-decoration: none !important; border:1px solid #e2e5e5 !important; color: #8c9c9c !important; background:url(images/pagination-bg.png) repeat-x !important; font-weight: normal !important; }
+.wp-pagenavi span.pages { padding: 6px 8px !important; margin: 2px !important ; border: none !important; color: #bcc9c9 !important; background: none !important; }
+.wp-pagenavi span.current, .wp-pagenavi span.extend, .wp-pagenavi a:active, .wp-pagenavi a:hover { padding: 6px 8px !important; margin: 2px; font-weight: bold; background:url(images/pagination-bg.png) repeat-x !important; border:1px solid #e2e5e5 !important; color:#8c9c9c !important; }
+.wp-pagenavi a, .wp-pagenavi a:link, .wp-pagenavi span.current, .wp-pagenavi span.extend, .wp-pagenavi a:active { -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; }
+.wp-pagenavi a:hover { color: #eeeded !important; }
